@@ -28,7 +28,7 @@
 	<PropertyGroup>
 		<ProjectName>MyWindowsService</ProjectName>
 		<ProjectFile>$(MSBuildProjectDirectory)\$(ProjectName).csproj</ProjectFile>
-		<ServiceExecutablePath>C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe</ServiceExecutablePath>
+		<ServiceExecutablePath>C:\$(ServiceName)\$(ProjectName).exe</ServiceExecutablePath>
 	</PropertyGroup>
 
 	<Target Name="DeployService">
