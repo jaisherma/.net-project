@@ -5,7 +5,7 @@
 		<ServiceName>MyWindowsService</ServiceName>
 		<ServiceDisplayName>My Windows Service (Jenkins CI test)</ServiceDisplayName>
 		<ServiceDescription>A new service, that changes the world for the greater good.</ServiceDescription>
-    <TargetFrameworkVersion>v4.8.04084</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
 	</PropertyGroup>
 
 	<Choose>
